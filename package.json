@@ -1,0 +1,28 @@
+{
+  "name": "demo-jev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc",
+    "triage": "tsx samples/01-ticket-triage.ts",
+    "commands": "tsx samples/02-function-calling.ts",
+    "find": "tsx samples/03-semantic-find.ts",
+    "rank": "tsx samples/04-composite-ranking.ts",
+    "extract": "tsx samples/05-select-not-generate.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "private": "true",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
